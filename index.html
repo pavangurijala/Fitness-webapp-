@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Vitara</title>
+<style>
+  body { margin: 0; font-family: -apple-system, sans-serif; background: #FAF7F2; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .box { text-align: center; padding: 40px; }
+  .logo { width: 64px; height: 64px; background: #C9973A; border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 700; color: #1A3328; margin: 0 auto 20px; }
+  h1 { color: #1A3328; font-size: 28px; margin: 0 0 8px; }
+  p { color: #8A8070; font-size: 15px; margin: 0 0 28px; }
+  button { background: #C9973A; color: #1A3328; border: none; border-radius: 12px; padding: 14px 32px; font-size: 16px; font-weight: 700; cursor: pointer; }
+  button:active { opacity: 0.8; }
+  #msg { margin-top: 20px; font-size: 14px; color: #3a8c6e; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="logo">V</div>
+  <h1>Vitara is working! ✅</h1>
+  <p>GitHub Pages is set up correctly.</p>
+  <button onclick="document.getElementById('msg').textContent='JavaScript works too! ✅'">
+    Test JavaScript
+  </button>
+  <div id="msg"></div>
+</div>
+</body>
+</html>
